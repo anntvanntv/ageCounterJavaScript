@@ -67,7 +67,7 @@ main{
 }
 
 input {
-  width: 77px;
+  width: 77px; 
   height: 41px;
   border-radius: 8px;
   border:0.1rem solid #80808075;
@@ -120,6 +120,62 @@ input {
         margin: auto;
     }
     main{
+        height:61%;
+        width:100%;
+        border-bottom-right-radius: 155px;
+        margin-left:0px;
+        padding-left:40px;
+    }
+    input {
+        width: 95px;
+        height: 55px;
+        
+    }
+    .input-area{
+        justify-content: flex-start;
+    }
+    .input{
+        margin:inherit;
+    }
+    #icon{
+        width: 4%;
+        height: 2%;
+        margin-left: 392px;
+
+        margin-top: -35px;
+    }
+    
+    .result p {
+        font-size:67px;
+    }
+    .result-uno{
+        margin-top: -41px;
+    }
+
+    .res{
+        margin-left:inherit;
+    }
+    .m{
+        margin-left: -79px;
+    }
+    #yearOut, #monthOut, #daysOut{
+       margin-left:-70px;
+    }
+   
+    
+    .attribution {
+        margin-top:-43px;
+    }
+}
+
+
+@media screen and (min-width:1700px){
+    body{
+        width: 60vw;
+        height: 80vh;
+        margin: auto;
+    }
+    main{
         height:100%;
         width:38vw;
         border-bottom-right-radius: 155px;
@@ -159,8 +215,9 @@ input {
         margin-left: -79px;
     }
     #yearOut, #monthOut, #daysOut{
-        margin-left:-70px;
+       margin-left:-70px;
     }
+   
     
     .attribution {
         margin-top:-43px;
