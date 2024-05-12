@@ -1,0 +1,168 @@
+
+body,
+html {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    font-family: "poppins", sans-serif;
+}
+
+main{   
+    background-color: whitesmoke;
+    margin: 5%;
+    border-radius: 17px 18px 84px 17px;
+    height: 70%;
+    padding-top: 3rem;
+}
+
+#icon {
+    background-color: blueviolet;
+    margin: 10% 40%;
+    border-radius: 38px;
+    padding: 1.3rem;
+    width: 8%;
+    height: 4%;
+    margin-bottom: 137px;
+}
+
+#icon:hover {
+    background-color: black;
+}
+
+#warning {
+    visibility: hidden;
+    margin-top: -63px;
+    margin-left: 220px;
+    font-size: 10px;
+    color:#ff000080;
+    font-style: italic;
+}
+
+.empty-message {
+    visibility: hidden;
+    margin-left:12px;
+    font-size: 10px;
+    color:#ff000080;
+    margin-bottom: 53px;
+    font-style: italic;
+}
+
+#diaL, #mesL, #anoL {
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.input-area {
+    display: flex;
+    max-width:100vw;
+    margin-left: 5px;
+}
+
+input {
+  width: 77px;
+  height: 41px;
+  border-radius: 8px;
+  border:0.1rem solid #80808075;
+  font-size:20px;
+  padding-left:11px;
+  font-weight: 500;
+  color:black; 
+}
+
+.input {
+    display:flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.result {
+    display: flex;
+    justify-content: space-evenly;
+    color:blueviolet;
+    margin-left: 20px;
+}
+
+.result p {
+    font-size: 58px;
+    margin-top: -52px;
+    font-weight: 700;
+    line-height: 3px;
+    text-align: end; 
+}
+
+.out {
+    width: 56.967px;
+    height: 46px;
+}
+
+.res {
+    color:black;
+    margin-left:20px;
+}
+#yearOut, #daysOut {
+    margin-left: -45px;
+}
+
+
+@media screen and (min-width:800px){
+    body{
+        width: 60vw;
+        height: 80vh;
+        margin: auto;
+    }
+    main{
+        height:100%;
+        width:38vw;
+        border-bottom-right-radius: 155px;
+        margin-left:22%;
+        padding-left:40px;
+    }
+    input {
+        width: 124px;
+        height: 55px;
+        
+    }
+    .input-area{
+        justify-content: flex-start;
+    }
+    .input{
+        margin:inherit;
+    }
+    #icon{
+        width: 4%;
+        height: 6%;
+        margin-left: 550px;
+
+        margin-top: -35px;
+    }
+    
+    .result p {
+        font-size:67px;
+    }
+    .result-uno{
+        margin-top: -41px;
+    }
+
+    .res{
+        margin-left:inherit;
+    }
+    .m{
+        margin-left: -79px;
+    }
+    #yearOut, #monthOut, #daysOut{
+        margin-left:-70px;
+    }
+    
+    .attribution {
+        margin-top:-43px;
+    }
+}
