@@ -1,3 +1,14 @@
+let inputis = document.querySelectorAll('input');
+
+inputis.forEach(function(i){
+    i.addEventListener("keypress", function onEvent(event){
+        if (event.key === "Enter"){
+            icon.click();
+        }
+    });
+});
+
+
 
 
 
@@ -142,7 +153,18 @@ let diaL = document.getEL
             } if( yearEnt > 99 || mesesRestoEnt > 99 || diasResto > 99){
                 
             }
+ 
+
+
+
 }
+
+
+
+
+
+
+
     
 
 
